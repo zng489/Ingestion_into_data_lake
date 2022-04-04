@@ -27,7 +27,7 @@
 ## Azure DATA FACTORY
 ```
 > Data Factory
-  > pen Icon
+  > "PEN" Icon
     > Create a new branch <Branch name* "uniepro_feature_uld_pintec">
     > Base on* <master branch>
       > Pipeline
@@ -35,8 +35,8 @@
         > ibge > org_raw_deflator.py
           > Name*  "org_raw_pintec"
           > Name {"notebook":"ibge/org_raw_deflator_pnad"} => {"notebook":"ibge/org_raw_pintec"}
-          > Type
-          > Dafault value
+          > Type ... "file_folder":"deflator_pnad" => "file_folder":"pintec"
+          > Dafault value {"env":"dev"}
         
 ```
  
