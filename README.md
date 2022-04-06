@@ -16,6 +16,8 @@
       > usr
         > ibge
           > org_raw_deflator_pnad.py
+        > me
+          > org_raw_exp_completa.py
           
       
 > STI_INTELIGENCIA
