@@ -30,19 +30,23 @@
   > "PEN" Icon
     > Create a new branch <Branch name* "uniepro_feature_uld_pintec">
     > Base on* <master branch>
-      > Pipeline
-      > raw 
-        > usr 
-          > ibge 
-            > org_raw_deflator
-          > me
-            > org_raw_exp_completa
-            
-            
-          > Name*  "org_raw_pintec"
-          > Name {"notebook":"ibge/org_raw_deflator_pnad"} => {"notebook":"ibge/org_raw_pintec"}
-          > Type ... "file_folder":"deflator_pnad" => "file_folder":"pintec"
-          > Dafault value {"env":"dev"}
+      > Pipeline    
+      
+> raw 
+  > usr 
+    > ibge 
+      > org_raw_deflator
+    > me
+      > org_raw_exp_completa
+      
+> Properties
+  > General
+    > Name* org_raw_exp_completa
+
+> Parameters
+> databricks {"notebook":"me/org_raw_exp_completa"}
+> files ["{'namespace':'me','file_folder':'exp_completa','extension':'csv','column_delimiter':';','encoding':'UTF-8','null_value':''}"]
+> env {"env":"dev"}
         
 ```
  
