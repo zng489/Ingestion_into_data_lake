@@ -31,8 +31,14 @@
     > Create a new branch <Branch name* "uniepro_feature_uld_pintec">
     > Base on* <master branch>
       > Pipeline
-      > raw > gov > raw > usr > <creatin` a folder OR subfolder* "pintec"> 
-        > ibge > org_raw_deflator.py
+      > raw 
+        > usr 
+          > ibge 
+            > org_raw_deflator.py
+          > me
+            > org_raw_exp_completa.py
+            
+            
           > Name*  "org_raw_pintec"
           > Name {"notebook":"ibge/org_raw_deflator_pnad"} => {"notebook":"ibge/org_raw_pintec"}
           > Type ... "file_folder":"deflator_pnad" => "file_folder":"pintec"
