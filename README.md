@@ -50,10 +50,17 @@
         
 ```
  
- 
 ## Azure DataBricks
-  > Repos
-    > ENSI-BIGDATABRICKS
-      > uniepro_feature_uld > KEYRUS > data_transforms > raw > usr > ibge > CREATING THE FILES
-      >  
+```
+> Repos
+  > ENSI-BIGDATABRICKS
+    > Pull the branch created early 
+      > KEYRUS
+        > raw
+          > usr
+            > ibge
+              > THE FILE WONT BE THERE, THE SO JUST TO CREATE THE FILE org_raw_deflator_pnad.py
+            > me
+              > THE FILE WONT BE THERE, THE SO JUST TO CREATE THE FILE org_raw_exp_completa.py
 
+```
