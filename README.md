@@ -34,9 +34,9 @@
       > raw 
         > usr 
           > ibge 
-            > org_raw_deflator.py
+            > org_raw_deflator
           > me
-            > org_raw_exp_completa.py
+            > org_raw_exp_completa
             
             
           > Name*  "org_raw_pintec"
