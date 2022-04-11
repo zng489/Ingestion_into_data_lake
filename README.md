@@ -62,7 +62,8 @@
 ```
 > Repos
   > ENSI-BIGDATABRICKS
-    > Pull the branch created early 
+    > Pull the branch created early #4
+    # Branch < oni_feature_uld_ibge_pintec_cnae > #4
       > KEYRUS
         > raw
           > usr
@@ -70,5 +71,27 @@
               > THE FILE WONT BE THERE, THE SO JUST TO CREATE THE FILE org_raw_deflator_pnad.py
             > me
               > THE FILE WONT BE THERE, THE SO JUST TO CREATE THE FILE org_raw_exp_completa.py
+              
+#4
+var_file = {
+'namespace': '< ibge> ',
+'file_folder': '< cnae/bio_nano_cnae >',
+'extension': 'csv',
+'column_delimiter': ';',
+'encoding': 'UTF-8',
+'null_value': ''
+}
 
+var_adf = {
+"adf_factory_name": "cnibigdatafactory",
+"adf_pipeline_name": "< org_raw_bio_nano_cnae >",
+"adf_pipeline_run_id": "60ee3485-4a56-4ad1-99ae-666666666",
+"adf_trigger_id": "62bee9e9-acbb-49cc-80f2-666666666",
+"adf_trigger_name": "62bee9e9-acbb-49cc-80f2-66666666",
+"adf_trigger_time": "2020-06-08T01:42:41.5507749Z",
+"adf_trigger_type": "PipelineActivity"
+}
+
+var_dls = {"folders":{"landing":"/tmp/dev/uld","error":"/tmp/dev/err","staging":"/tmp/dev/stg","log":"/tmp/dev/log","raw":"/tmp/dev/raw","archive":"/tmp/dev/ach"}, "systems":{"raw":"usr"}}
+# /tmp/dev/uld
 ```
