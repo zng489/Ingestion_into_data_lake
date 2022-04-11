@@ -16,6 +16,8 @@
       > usr
         > ibge
           > org_raw_deflator_pnad.py
+            > cnae
+              > org
         > me
           > org_raw_exp_completa.py
 > STI_INTELIGENCIA          
@@ -29,6 +31,7 @@
 > Data Factory
   > "PEN" Icon
     > Create a new branch <Branch name* "uniepro_feature_uld_pintec">
+    > Branch < oni_feature_uld_ibge_pintec_cnae #1 >
     > Base on* <master branch>
       > Pipeline    
       
@@ -36,6 +39,11 @@
   > usr 
     > ibge 
       > org_raw_deflator
+       > cnae
+        > org_raw_bio_nano_cnae #2
+        # databricks: {"notebook":"ibge/cnae/org_raw_bio_nano_cnae"} #3
+        # files: ["{'namespace':'ibge','file_folder':'cnae/bio_nano_cnae','extension':'csv','column_delimiter':';','encoding':'UTF-8','null_value':''}"] #3
+        # env: {"env":"dev"} #3
     > me
       > org_raw_exp_completa
       
