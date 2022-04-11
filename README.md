@@ -41,8 +41,8 @@
       > org_raw_deflator
        > cnae
         > org_raw_bio_nano_cnae #2
-        # databricks: {"notebook":"ibge/cnae/org_raw_bio_nano_cnae"} #3
-        # files: ["{'namespace':'ibge','file_folder':'cnae/bio_nano_cnae','extension':'csv','column_delimiter':';','encoding':'UTF-8','null_value':''}"] #3
+        # databricks: {"notebook":"ibge/pintec/cnae/org_raw_bio_nano_cnae"} #3
+        # files: ["{'namespace':'ibge','file_folder':'pintec/cnae/bio_nano_cnae','extension':'csv','column_delimiter':';','encoding':'UTF-8','null_value':''}"] #3
         # env: {"env":"dev"} #3
     > me
       > org_raw_exp_completa
@@ -75,7 +75,7 @@
 #4
 var_file = {
 'namespace': '< ibge> ',
-'file_folder': '< cnae/bio_nano_cnae >',
+'file_folder': '< pintec/cnae/bio_nano_cnae >',
 'extension': 'csv',
 'column_delimiter': ';',
 'encoding': 'UTF-8',
