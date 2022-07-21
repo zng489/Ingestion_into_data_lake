@@ -1,5 +1,28 @@
 # Ingestion_into_data_lake
 
+```
+## DATA FACTORY:
+* (folder) "crw"
+  -> (folder) "rfb_cno"
+    -> (pipelines) "lnd_org_raw_rfb_cno"
+        parameter
+        
+        name Type     Default
+        bot  String   org_raw_rfb_cno
+        env  Object   {"env":"dev"}
+        
+          -> Pull Request para master
+``` 
+
+
+
+
+
+
+
+
+
+
 ## Azure Storage Explorer
 * datalake -> 
 
