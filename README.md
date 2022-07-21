@@ -1,6 +1,18 @@
 # Ingestion_into_data_lake
 
 ```
+## git clone ENSI-BIGDATACRAWLER (repos)
+  -> Developement bot
+    -> git init
+    -> git username
+    -> git password
+    -> git checkout -b org_raw_rfb_cno
+    -> git add --all
+    -> git commit -m "message"
+    -> git push -u origin org_raww_rfb_cno
+      
+      -> Pull Request para branch "dev"
+
 ## DATA FACTORY:
 * (folder) "crw"
   -> (folder) "rfb_cno"
