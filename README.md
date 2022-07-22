@@ -52,7 +52,11 @@
       bot   |  String  |    Value                      |    org_raw_rfb_cno
  
 -------------------------------------------------------------------------------------------
+## WorkFlow Logic:
+=> lnd_org_raw_rfb_cno =====> wkf_lnd_uniepro_movie_4_hours =====> 
 
+
+-------------------------------------------------------------------------------------------
 ## Ingestion of PRM:
 => Azure DevOps
   => ENSI-BIGDATAPRM
