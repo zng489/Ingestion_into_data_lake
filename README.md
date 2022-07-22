@@ -27,8 +27,13 @@
  ## The merge problem that I've met:
   -> For instance:
     -> org_raw_rfb_cno -> dev: Conflict problem, so to resolve this problem
-      -> Fist: Create a new branch based on "dev"
-      ->
+      -> First: Create a new branch based on "dev"
+      -> Second: Commit the new branch with "dev"
+  
+  
+  
+## Invoked Pipelines:
+  => wkf_lnd_uniepro_more_4_hours
 ``` 
 
 
