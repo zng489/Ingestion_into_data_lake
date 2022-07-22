@@ -10,7 +10,6 @@
     -> git add --all
     -> git commit -m "message"
     -> git push -u origin org_raww_rfb_cno
-      
       -> Pull Request para branch "dev"
 
 ## DATA FACTORY:
@@ -22,8 +21,8 @@
         name Type     Default
         bot  String   org_raw_rfb_cno
         env  Object   {"env":"dev"}
-        
           -> Pull Request para master
+          
  ## The merge problem that I've met:
   -> For instance:
     -> org_raw_rfb_cno -> dev: Conflict problem, so to resolve this problem
