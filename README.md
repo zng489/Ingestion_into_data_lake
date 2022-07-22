@@ -46,7 +46,8 @@
         => Pull request
   
   
-  
+## Pay attention:
+=> Manage -> Triggers -> Cancel trigger
 ``` 
 
 
