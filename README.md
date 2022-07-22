@@ -12,6 +12,9 @@
     -> git push -u origin org_raww_rfb_cno
       -> Pull Request para branch "dev"
 
+
+-------------------------------------------------------------------------------------------
+
 ## DATA FACTORY:
 * (folder) "crw"
   -> (folder) "rfb_cno"
@@ -29,12 +32,27 @@
       -> First: Create a new branch based on "dev"
       -> Second: Commit the new branch with "dev"
   
-  
-  
-## Invoked Pipelines:
-  => wkf_lnd_uniepro_more_4_hours
+
+## Factory Resources:
+  => workflow
+    => workflow_prod_lnd
+      => Parameters
+      Name  |  Type    |   Default value
+      env   |  Object  |   {"env":"dev"}
+      bot   |  String  |  org_raw_rfb_cno
+      
+    => Execute Pipeline
+      => Name*: lnd_org_raw_rfb_cno
+      
+        => Settings
+        Invoked pipeline: lnd_org_raw_rfb_cno
+        
+      Name  |  Type    |    Value                      |    Default value
+      env   |  Object  |    @pipeline().parameters.env |    {"env":"dev"}
+      bot   |  String  |    Value                      |    org_raw_rfb_cno
  
- 
+-------------------------------------------------------------------------------------------
+
 ## Ingestion of PRM:
 => Azure DevOps
   => ENSI-BIGDATAPRM
