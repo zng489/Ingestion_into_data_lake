@@ -33,6 +33,20 @@
   
 ## Invoked Pipelines:
   => wkf_lnd_uniepro_more_4_hours
+ 
+ 
+## Ingestion of PRM:
+=> Azure DevOps
+  => ENSI-BIGDATAPRM
+    => prm
+      => usr
+        => Creating new branch "org_raw_rfb_cno"
+        => Creating new folder "rfb_cno"
+        => Adding the excel file "PRM"
+        => Pull request
+  
+  
+  
 ``` 
 
 
