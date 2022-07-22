@@ -24,6 +24,11 @@
         env  Object   {"env":"dev"}
         
           -> Pull Request para master
+ ## The merge problem that I've met:
+  -> For instance:
+    -> org_raw_rfb_cno -> dev: Conflict problem, so to resolve this problem
+      -> Fist: Create a new branch based on "dev"
+      ->
 ``` 
 
 
